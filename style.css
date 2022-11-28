@@ -1,0 +1,133 @@
+* {
+  margin: 0px;
+}
+header {
+  background-image: url(./images/head.jpg);
+  background-position: 100% 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 818px;
+}
+h2 {
+  color: white;
+  font-size: 50px;
+  font-family: Oswald;
+  font-weight: 700;
+}
+h1 {
+  color: #facd3d;
+  font-family: Oswald;
+  font-size: 80px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+#head {
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 200px;
+}
+#sec-1 {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: aliceblue;
+  position: relative;
+}
+#sec1-img {
+  position: relative;
+}
+#sec-1-cont {
+  position: absolute;
+  width: 500px;
+  left: 8%;
+}
+#sec-1-cont-2 {
+  position: absolute;
+  width: 500px;
+  right: 8%;
+  top: 30px;
+}
+p {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.more {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  border-bottom: solid #facd3d 3px;
+}
+#sec-2 {
+  background-color: black;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  border-left: solid black 120px;
+  border-right: solid black 120px;
+}
+.material-symbols-outlined {
+  color: #facd3d;
+  font-size: 50px;
+  height: 30px;
+  width: 30px;
+}
+#sec-2-2 {
+  display: flex;
+  justify-content: space-between;
+}
+.sec-2-2 {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  gap: 20px;
+  height: 400px;
+  width: 250px;
+}
+h3 {
+  color: white;
+  font-family: oswald;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.sec-2-2 > p {
+  color: white;
+  font-family: 15px;
+}
+
+#sec-3-1 {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+}
+#sec-3 {
+  height: 700px;
+  position: relative;
+  background-image: url(./images/sec-3.jpg);
+  background-position: 100% 50%;
+}
+#sec-4 {
+  background-color: black;
+  float: right;
+}
+#sec-4-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 100px;
+  margin-top: 100px;
+}
+#sec-4-img {
+  margin-top: -200px;
+}
+#sec-5 {
+  background-color: black;
+  height: auto;
+}
+#sec-5-1 {
+  /* height: 600px; */
+}
